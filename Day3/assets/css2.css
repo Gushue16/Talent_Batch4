@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.boom{
+  display: flex;
+}
+.pricing-card{
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .pricing-card h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .pricing-card .price {
+    color: #FF6A00;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .pricing-card ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  .pricing-card ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+  }
+  .pricing-card ul li:before {
+    content: "\25A0";
+    color: #FF6A00;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    margin-left: -20px;
+  }
+  .pricing-card button {
+    background-color: #FF6A00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  li{
+    text-decoration: underline;
+    margin-bottom: 10px;
+  }
+
+  

@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: white;
+    line-height: 1.6;
+}
+.com{
+    display: flex;
+}
+.container{
+    width: 1200px;
+    display: flex;
+    margin:0 auto;
+}
+.box1{
+    list-style: none;
+    background-color: rgb(231, 236, 225);
+    width: 150px;
+    text-align: right 30px;
+    text-align: center;
+    border: 2px solid;
+}
+.box1 li:first-child{
+    background-color: yellow;
+}
+.container1{
+    width: 700px;
+    display: flex;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+.box2{
+    list-style: none;
+    background-color: rgb(231, 236, 225);
+    width: 150px;
+    text-align: right 30px;
+    text-align: center;
+    border: 2px solid;
+}
+/* ol li:nth-child(2n + 3){
+    background-color: yellow;
+}
+ol li:first-child{
+    background-color: yellow;
+} */
+.box3{
+    list-style: none;
+    background-color: rgb(231, 236, 225);
+    width: 150px;
+    text-align: right 30px;
+    text-align: center;
+    border: 2px solid;
+}
+.box2 li:nth-child(odd){
+    background-color: yellow;
+}
+.box3 li:nth-child(even){
+    background-color: yellow;
+}
+.box4{
+    list-style: none;
+    background-color: rgb(231, 236, 225);
+    width: 150px;
+    text-align: right 30px;
+    text-align: center;
+    border: 2px solid;
+}
+.box4 li:nth-child(3n + 1){
+    background-color: yellow;
+}
+
+
