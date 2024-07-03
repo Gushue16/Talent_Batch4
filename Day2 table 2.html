@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Invoice Table</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  table {
+    width:500px;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  .right-align {
+    text-align: left;
+  }
+  .invo{
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<h2 class="invo">Invoice</h2>
+
+<table>
+  <tr>
+    <th>Item/Desc.</th>
+    <th>Qty.</th>
+    <th>@</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Paperclips (Box)</td>
+    <td>100</td>
+    <td>$1.15</td>
+    <td class="right-align">$115.00</td>
+  </tr>
+  <tr>
+    <td>Paper (Case)</td>
+    <td>10</td>
+    <td>$45.99</td>
+    <td class="right-align">$459.90</td>
+  </tr>
+  <tr>
+    <td>Wastepaper Baskets</td>
+    <td>2</td>
+    <td>$17.99</td>
+    <td class="right-align">$35.98</td>
+  </tr>
+  <tr>
+    <td colspan="3" class="right-align">Subtotal:</td>
+    <td class="right-align">$610.88</td>
+  </tr>
+  <tr>
+    <td colspan="2" class="right-align">Tax (7%):</td>
+    <td>7%</td>
+    <td class="right-align">$42.76</td>
+  </tr>
+  <tr>
+    <td colspan="3" class="right-align"><strong>Total:</strong></td>
+    <td class="right-align"><strong>$653.64</strong></td>
+  </tr>
+</table>
+
+</body>
+</html>

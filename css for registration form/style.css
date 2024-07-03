@@ -1,0 +1,87 @@
+body{
+    background: #7c7c7c;
+}
+
+.container
+ {
+    width: 400px; 
+    margin: 0 auto;
+    background-image: linear-gradient(135deg, rgb(8, 71, 78), rgba(142, 159, 220, 0.816));
+    border: 50px;
+    border-radius: 25px;
+    height: 800px;
+    
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    padding: 2px;
+    border: 2px solid rgb(158, 155, 155);
+    border-radius: 50px;
+
+}
+label{
+    display: block;
+    color: aliceblue;
+}
+
+.textbox{
+    padding-left: 45px;
+
+
+}
+.btn{
+    padding: 30px;
+    padding-left: 80px;
+    display: flex;
+    gap: 50px;
+
+}
+.box{
+    padding: 10px;
+    width: 300px;
+    border: 2px #7c7c7c;
+    border-radius: 15px;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    border: 120px;
+    border-radius: 100px;
+    background-color: #1f5168;
+}
+footer{
+    padding-left: 130px;
+    display: flex;
+    
+}
+.button:hover{
+    color: azure;
+    background-image: linear-gradient(135deg, rgb(8, 71, 78), rgba(142, 159, 220, 0.816) );
+    cursor: pointer;
+}
+.select{
+    display: flex;
+    padding-left: 20px;
+    gap: 10px;
+}
+.gen{
+    padding-left: 45px;
+    border-bottom: 2px solid white;
+    border-left-width: 20px;
+}
+.language{
+display: flex;
+gap: 10px;
+}
+
+.messagebox{
+    width:300px;
+    height: 40px;
+    display: flex;
+    margin: 0 auto;
+}
+.pftr{
+    
+    padding-left: 10px;
+}

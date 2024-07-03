@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Table</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    background-color: #0b7f8e;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    gap: 20px;
+    padding-left: 5px;
+    border-bottom:20px solid white;
+  }
+  .table-container {
+    width: 90%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-collapse: collapse;
+    border-radius: 10px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #0b7f8e;
+    color: white;
+  }
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  .navi{
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s ease;
+  }
+  nav{
+    display: flex;
+    gap: 15px;
+  }
+  .navi:hover{
+    color: #ffcc00;
+  }
+</style>
+</head>
+<body>
+
+<div class="table-container">
+<table>
+    <div class="header">DASHBOARD
+        <nav>
+        <a class="navi" href="#">People</a>
+        <a class="navi" href="#">Position</a>
+        <a class="navi" href="#">Reports</a>
+        <a class="navi" href="#">Forms</a>
+      </nav></div>
+<thead>
+<tr>
+<th>First Name</th>
+<th>Last Name</th>
+<th>Start Date</th>
+<th>Position Title</th>
+<th>Department</th>
+<th>Location</th>
+<th>Employment Status</th>
+<th>Employment Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Daisy</td>
+<td>Willy</td>
+<td>01/07/2019</td>
+<td>Graphic Designer</td>
+<td>Design</td>
+<td>Philippines</td>
+<td>Active</td>
+<td>Full-time</td>
+</tr>
+<tr>
+<td>Joel</td>
+<td>McKirdy</td>
+<td>15/03/2020</td>
+<td>Software Engineer</td>
+<td>IT</td>
+<td>USA</td>
+<td>Active</td>
+<td>Full-time</td>
+</tr>
+<tr>
+    <td>Joe</td>
+    <td>Biden</td>
+    <td>11/09/2018</td>
+    <td>UI Designer</td>
+    <td>Design</td>
+    <td>Cambodia</td>
+    <td>Active</td>
+    <td>Contractor</td>
+    </tr>
+    <tr>
+        <td>Jake</td>
+        <td>Paul</td>
+        <td>15/03/2017</td>
+        <td>Visual Designer</td>
+        <td>Design</td>
+        <td>Brazil</td>
+        <td>Active</td>
+        <td>Part-Time</td>
+        </tr>
+        <tr>
+            <td>Joe</td>
+            <td>McKinzy</td>
+            <td>15/03/2016</td>
+            <td>Sales Manager</td>
+            <td>Sales</td>
+            <td>UK</td>
+            <td>Active</td>
+            <td>Part-Time</td>
+            </tr>
+            <tr>
+                <td>Baba</td>
+                <td>Yagae</td>
+                <td>15/03/2021</td>
+                <td>Copy Writer</td>
+                <td>Sales</td>
+                <td>Japan</td>
+                <td>Active</td>
+                <td>Full-Time</td>
+                </tr>
+</tbody>
+</table>
+</div>
+
+</body>
+</html>
