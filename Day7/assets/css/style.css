@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --black: black;
+    --aquamarine: aquamarine;
+    --rgb(95, 109, 109): rgb(95, 109, 109);
+    --cyan: cyan;
+    --grey: grey;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    background-color: var(--aquamarine);
+    padding-bottom: 30PX;
+    padding-top: 30px;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--aquamarine);
+    padding-bottom: 30PX;
+    padding-top: 30px;
+}
+
+.maincontent-clearfix {
+    display: flex;
+}
+
+.content {
+    width: 70%;
+    float: left;
+    background-color: rgb(217, 234, 234);
+
+}
+
+.sidebar {
+    width: calc(30% - 20px);
+    float: right;
+    padding-right: 20px;
+    background-color: rgb(179, 194, 194);
+}
+
+nav ul {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.box-body {
+    padding: 60px;
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+    gap: 10px;
+}
+
+img {
+    float: left;
+    border: 1px solid black;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+
+.box {
+    border: 1px solid;
+    background-color: brown;
+    margin: 48px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.box-translate {
+    transform: translate(50px, 20px);
+}
+
+.box-scale {
+    transform: scale(1.5);
+}
+
+.box-skew {
+    transform: skew(20deg);
+}
+
+.box-rotate {
+    transform: rotate(45deg);
+}
+
+.responsive-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    
+    body {
+        background-color: orange;
+    }
+    header{
+        width: 100%;
+    }
+
+    .maincontent-clearfix {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .content {
+        width: 100%;
+    }
+    .sidebar{
+        width: 100%;
+        float: none;
+    }
+    .menu-icon {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin-right: 20px;
+    }
+}
